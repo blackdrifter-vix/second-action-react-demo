@@ -8,7 +8,7 @@ jobs:
         run: actions/checkout@v3 #we can google this
       - name: Install NodeJS
         run: actions/setup-node@v4 #we can google this for latest runner
-        with: 
+        with:
           node-version: 18
       - name: Install Dependencies
         run: npm ci   #npm install can also be used
