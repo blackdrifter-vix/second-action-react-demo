@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Get Code
         uses: actions/checkout@v3 #we can google this
-      - name: Install NodeJS
+      - name: Install NodeJs
         uses: actions/setup-node@v4 #we can google this for latest runner
         with:
           node-version: 18
